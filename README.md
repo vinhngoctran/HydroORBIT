@@ -5,7 +5,7 @@ hydrological variable forecasting, described in *"An Adaptable Foundation Model 
 Forecasting."*
 
 The included `weights/` are exported from the final training checkpoint via the model's
-HuggingFace-style `save_pretrained()`.
+HuggingFace-style `save_pretrained()`. The pretrained model can be downloaded here: https://huggingface.co/vinhtn/HydroORBIT.
 
 ## Design
 
