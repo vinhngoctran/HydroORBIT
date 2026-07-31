@@ -84,20 +84,3 @@ out.quantile_preds  # (B, n_q, H)
 See `Example/` for five runnable notebooks, one per experiment type, each with a small sample
 dataset included.
 
-## Training
-
-Run from this directory:
-
-```bash
-python -u train.py \
-  --hourly_dir ../Data/prepared_hourly/train \
-  --daily_dir ../Data/prepared_daily/train \
-  --config default \
-  --max_iters 300000
-```
-
-## Quick Smoke Test
-
-```bash
-python3 -m py_compile src/config.py src/layers.py src/model.py src/pipeline.py train.py
-```
